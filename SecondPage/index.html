@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>The News-post</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<div class="container" id="main">
+			<div class="navbar navbar-fixed-top" id="navbar">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/"><strong>The News-post</strong></a>
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									News
+									<strong class="caret"></strong>
+								</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header">
+										Sections
+									</li>									
+									<li>
+										<a href="#">World</a>
+									</li>
+									<li>
+										<a href="#">India</a>
+									</li>
+									<li>
+										<a href="#">Sports</a>
+									</li>
+									<li>
+										<a href="#">Business</a>
+									</li>
+									<li>
+										<a href="#">Technology</a>
+									</li>
+									<li>
+										<a href="#">Weather</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">
+										More sections
+									</li>
+									<li>
+										<a href="#">Stocks</a>
+									</li>
+									<li>
+										<a href="#">Glamour</a>
+									</li>
+									<li>
+										<a href="#">Magazine Section</a>
+									</li>
+									<li>
+										<a href="#">Comics</a>
+									</li>
+									<li>
+										<a href="#">Sudoku</a>
+									</li>
+								</ul>
+							</li>
+						</ul> <!-- end nav -->
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search" id="searchInput">
+							<button type="submit" class="btn btn-default">
+								<span id="searchIcon"><img src="images/SearchIcon.png"></span>
+							</button>
+						</form> <!-- end navbar form -->
+						<form class="navbar-form pull-left" id="stock">	
+							<marquee id="marquee">
+								<ul id="stockDetails">
+									<li>
+										<a href="#">Hindalco <img src="images/caret-arrow-up.png"> 1.87</a>
+									</li>
+									<li>
+										<a href="#">NTPC <img src="images/caret-down.png"> 0.47</a>
+									</li>
+									<li>
+										<a href="#">INFY <img src="images/caret-down.png"> 3.41</a>
+									</li>
+									<li>
+										<a href="#">Asianpaint <img src="images/caret-down.png"> 2.09</a>
+									</li>
+									<li>
+										<a href="#">Auropharma <img src="images/caret-arrow-up.png"> 1.37</a>
+									</li>
+									<li>
+										<a href="#">Tatamotors <img src="images/caret-arrow-up.png"> 0.95</a>
+									</li>
+								</ul>
+							</marquee>
+						</form>
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<span><img src="images/User.png"></span>
+										My Account
+									<strong class="caret"></strong>
+								</a>
+								<ul class="dropdown-menu" id="myAccountDrop">
+									<li>
+										<a href="#">Notifications</a>
+									</li>
+									<li>
+										<a href="#">Settings</a>
+									</li>
+									<li>
+										<a href="#">Bookmarked</a>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#">Signout</a>
+									</li>
+								</ul>
+							</li>
+						</ul> <!-- end nav pull-right -->
+					</div> <!-- end nav-collapse -->
+				</div> <!-- end container -->
+			</div> <!-- end navbar -->
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2017</h6>
+					</div> <!-- end col-sm-2 -->
+					<div class="col-sm-4">
+						<h6>About us</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div> <!-- end col-sm-4 -->
+					<div class="col-sm-2">
+						<h6>News Partners</h6>
+						<ul>
+							<li><a href="#">Lorem</a></li>
+							<li><a href="#">Ipsum</a></li>
+							<li><a href="#">Dolor</a></li>
+							<li><a href="#">Sit</a></li>
+							<li><a href="#">Amet</a></li>
+							<li><a href="#">Consectetur</a></li>
+						</ul>
+					</div> <!-- end col-sm-2 -->
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+							<li><a href="#">Linkedin</a></li>
+							<li><a href="#">Blogpost</a></li>
+						</ul>
+					</div> <!-- end col-sm-2 -->	
+					<div class="col-sm-2">
+						<h6>Powered by NIIT-Technologies</h6>
+					</div> <!-- end col-sm-2 -->
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+		</footer> <!-- end footer -->
+	<!-- JQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
